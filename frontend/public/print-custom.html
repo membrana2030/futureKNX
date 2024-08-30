@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        html,
+        body {
+            padding: 0;
+            margin: 0;
+            font-size: 4mm;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        }
+
+        #Page {
+            margin: auto;
+            padding: 5mm 15mm;
+            width: 210mm;
+            height: 260mm;
+        }
+
+        h1 {
+            font-size: 200%;
+            font-weight: bold;
+            margin-bottom: 10mm;
+        }
+
+        .page-header {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 5mm;
+            padding-bottom: 2mm;
+            margin-bottom: 15mm;
+            border-bottom: 1mm solid lightgray;
+        }
+
+        .logo {
+            width: 50mm;
+        }
+
+        #ProductImageWrapper {
+            border-radius: 1rem;
+        }
+
+        .product-container {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 5mm;
+        }
+
+        .product-container img {
+            width: 85mm;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        table td,
+        table th {
+            text-align: left;
+            white-space: nowrap;
+            border-spacing: 2mm;
+            padding: 1mm;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Page">
+        <div class="page-header">
+            <div>
+                <img class="logo"
+                     src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgMjkwLjk4IDEwMC45OCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiMwNjZiYjM7fS5jbHMtMntmaWxsOiMyZGE4NGQ7fS5jbHMtM3tmaWxsOiM4ZTk2OWM7fS5jbHMtNHtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50KTt9LmNscy01e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtMik7fS5jbHMtNntmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTMpO30uY2xzLTd7ZmlsbDp1cmwoI2xpbmVhci1ncmFkaWVudC00KTt9LmNscy04e2ZpbGw6dXJsKCNsaW5lYXItZ3JhZGllbnQtNSk7fS5jbHMtOXtmaWxsOnVybCgjbGluZWFyLWdyYWRpZW50LTYpO308L3N0eWxlPjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMTYuNDgiIHkxPSI2MS45MyIgeDI9IjMwOC4xIiB5Mj0iNjEuOTMiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMyZGE4NGQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMwNjZiYjMiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50LTIiIHgxPSIxMi44OSIgeTE9IjcyLjkxIiB4Mj0iMzA0LjUyIiB5Mj0iNzIuOTEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAuMSIgc3RvcC1jb2xvcj0iIzJkYTg0ZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA2NmJiMyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtMyIgeDE9Ii04LjYiIHkxPSI3Mi45MSIgeDI9IjI4My4wMiIgeTI9IjcyLjkxIiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNCIgeDE9Ii04LjYiIHkxPSI2NS45NiIgeDI9IjI4My4wMiIgeTI9IjY1Ljk2IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNSIgeDE9Ii04LjYiIHkxPSI3Mi4wNyIgeDI9IjI4My4wMiIgeTI9IjcyLjA3IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQtNiIgeDE9Ii04LjYiIHkxPSI3Mi4yOCIgeDI9IjI4My4wMiIgeTI9IjcyLjI4IiB4bGluazpocmVmPSIjbGluZWFyLWdyYWRpZW50Ii8+PC9kZWZzPjxnIGlkPSJnMTE2Ij48ZyBpZD0icGF0aDExOCI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMjUyLjczLDQuMTFhNjUuODEsNjUuODEsMCwwLDEsMTgsMi42Niw0Mi43OCw0Mi43OCwwLDAsMSwxNC4xNiw3LjY5aDUuNzlzLTYuMDktNi43MS0xNy44LTEwLjgzUzI1Mi43MywwLDI1Mi43MywwVjQuMTEiLz48L2c+PC9nPjxnIGlkPSJnMTIwIj48ZyBpZD0icGF0aDEyMiI+PHBhdGggY2xhc3M9ImNscy0yIiBkPSJNMjMzLjA4LDMuNDRhNDguNDgsNDguNDgsMCwwLDAtMTguMzQsMTFoNS44czQuOC00LjY5LDE0LjA3LTcuNjNhNjIuMTcsNjIuMTcsMCwwLDEsMTguMTEtMi43MlYwYTU2LjkzLDU2LjkzLDAsMCwwLTE5LjY0LDMuNDIiLz48L2c+PC9nPjxwb2x5Z29uIGNsYXNzPSJjbHMtMyIgcG9pbnRzPSIyNjIuNjggMTUuNjMgMjU2LjkzIDE1LjY0IDI1Ni45NyAyOC4yOCAyNDcuOTggMTUuNiAyNDAuOTcgMTUuNiAyNDAuOTcgMzUuODMgMjQ2LjY1IDM1LjgzIDI0Ni43NSAyMy4yOCAyNTYuMDMgMzUuODMgMjYyLjY5IDM1LjgzIDI2Mi42OCAxNS42MyIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSIyODEuNjMgMjQuODkgMjkwLjcxIDE1Ljc2IDI4NC45IDE1Ljc2IDI3OC45NyAyMS43MyAyNzMuODUgMTUuNzYgMjY3LjA3IDE1Ljc2IDI3NS4yNSAyNS41IDI2NC45NiAzNS45OSAyNzAuNzcgMzUuOTkgMjc3LjkxIDI4LjY3IDI4NC4wMiAzNS45NiAyOTAuOTggMzUuOTkgMjgxLjYzIDI0Ljg5Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjIyNy4zOSAyNS4xMyAyMjYuNTcgMjQuMDkgMjM0LjggMTUuNzQgMjI4LjkyIDE1Ljc0IDIyMC41MyAyNC4yNyAyMjAuNTMgMTUuNzYgMjE0Ljc0IDE1Ljc2IDIxNC43MyAzNS45OSAyMjAuNTMgMzUuOTkgMjIwLjUzIDMwLjIyIDIyMi44MyAyNy44OSAyMjkuNjIgMzUuOTcgMjM2LjU3IDM1Ljk3IDIyNy4zOSAyNS4xMyIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTIzLjg3LDk4LjQ0QTEuMTgsMS4xOCwwLDAsMSwyMi43LDk5LjZIOS40NmExLjE4LDEuMTgsMCwwLDEtMS4xNy0xLjE2VjU2LjJIMS4xN0ExLjE4LDEuMTgsMCwwLDEsMCw1NVY0Ni4xMkExLjE4LDEuMTgsMCwwLDEsMS4xNyw0NUg4LjI4VjQxLjM0YzAtMTIuNDEsOC43LTE3LjA4LDE3LjgzLTE3LjA4YTg1LjU4LDg1LjU4LDAsMCwxLDkuNjUuODUsMS40NiwxLjQ2LDAsMCwxLDEuMTcsMS4zOHY4LjhhLjk0Ljk0LDAsMCwxLTEuMTcuODUsMzAuNTksMzAuNTksMCwwLDAtNS45NC0uNTNjLTMuNSwwLTUuOTQsMS43LTUuOTQsNy4yMlY0NUgzNS43NmExLjE4LDEuMTgsMCwwLDEsMS4xNywxLjE3VjU1YTEuMTgsMS4xOCwwLDAsMS0xLjE3LDEuMTdIMjMuODhaIi8+PHBhdGggY2xhc3M9ImNscy01IiBkPSJNNjAuOTEsMTAwLjg4Yy0xMS41NiwwLTE5LTcuODYtMTktMjEuMjNWNDYuMTJBMS4xOCwxLjE4LDAsMCwxLDQzLjEsNDVINTYuMjNhMS4xOCwxLjE4LDAsMCwxLDEuMTcsMS4xN1Y3OS40NGMwLDUuOTQsMy42MSw5Ljc2LDguMzksOS43Niw1LjczLDAsMTEuODgtNS4zLDExLjg4LTE3VjQ2LjEyQTEuMTgsMS4xOCwwLDAsMSw3OC44NSw0NUg5Mi4zMmExLjE4LDEuMTgsMCwwLDEsMS4xNywxLjE3Vjk4LjQ0YTEuMTgsMS4xOCwwLDAsMS0xLjE3LDEuMTZINzkuNmExLjA5LDEuMDksMCwwLDEtMS4wNy0xLjE2VjkyLjcxQTIyLjA4LDIyLjA4LDAsMCwxLDYwLjkxLDEwMC44OFoiLz48cGF0aCBjbGFzcz0iY2xzLTYiIGQ9Ik0xNTguNTgsMTAwLjg4Yy0xMS41NywwLTE5LTcuODYtMTktMjEuMjNsMC0zMy41M0ExLjE4LDEuMTgsMCwwLDEsMTQwLjc2LDQ1SDE1My45YTEuMTgsMS4xOCwwLDAsMSwxLjE3LDEuMTdWNzkuNDRjMCw1Ljk0LDMuNjEsOS43Niw4LjM4LDkuNzYsNS43MywwLDExLjg5LTUuMywxMS44OS0xN1Y0Ni4xMkExLjE4LDEuMTgsMCwwLDEsMTc2LjUxLDQ1SDE5MGExLjE4LDEuMTgsMCwwLDEsMS4xNywxLjE3Vjk4LjQ0QTEuMTgsMS4xOCwwLDAsMSwxOTAsOTkuNkgxNzcuMjZhMS4wOSwxLjA5LDAsMCwxLTEuMDYtMS4xNlY5Mi43MUEyMi4wOSwyMi4wOSwwLDAsMSwxNTguNTgsMTAwLjg4WiIvPjxwYXRoIGNsYXNzPSJjbHMtNyIgZD0iTTEzNC40NSw5Ny4zOEEyLDIsMCwwLDEsMTMzLjM5LDk5YTMzLjg0LDMzLjg0LDAsMCwxLTkuNzYsMS43Yy05LjIzLDAtMTgtNC42Ny0xOC0xNy4wOWwuMS0yNy4zOEg5OS43NUExLjE4LDEuMTgsMCwwLDEsOTguNTgsNTVWNDYuMTJBMS4xOCwxLjE4LDAsMCwxLDk5Ljc1LDQ1aDUuODRsLS4xMS0xMi41MmExLjE4LDEuMTgsMCwwLDEsMS4xNy0xLjE3aDEzLjhhMS4xOCwxLjE4LDAsMCwxLDEuMTYsMS4xN0wxMjEuNTEsNDVoMTEuODhhMS4xOCwxLjE4LDAsMCwxLDEuMTcsMS4xN1Y1NWExLjE4LDEuMTgsMCwwLDEtMS4xNywxLjE3aC0xMmwuMTEsMjdjMCw0LjY2LDIuMzMsNi4xNSw1LjgzLDYuMTVhMjEuODcsMjEuODcsMCwwLDAsNS45NC0uODUuOTQuOTQsMCwwLDEsMS4xNy44NVoiLz48cGF0aCBjbGFzcz0iY2xzLTgiIGQ9Ik0xOTcuODEsOTkuNmExLjE4LDEuMTgsMCwwLDEtMS4xNy0xLjE2VjQ2LjEyQTEuMTgsMS4xOCwwLDAsMSwxOTcuODEsNDVoMTMuMjRhMSwxLDAsMCwxLDEuMDYsMS4xN2wwLDguMDZjNC4yNC02LjQ3LDExLjU2LTkuNjUsMTkuNTItOS42NWExNS4yOSwxNS4yOSwwLDAsMSwyLjIzLjIxLDEuNDcsMS40NywwLDAsMSwxLjE3LDEuMzh2OS40NGExLjEsMS4xLDAsMCwxLTEuMTcsMS4wNyw5Ljg5LDkuODksMCwwLDAtMS44LS4xMWMtMTEuMjUsMC0xOS41Myw2LjI2LTE5LjUzLDE4Ljc4bC4wNSwyMy4xNGExLjE4LDEuMTgsMCwwLDEtMS4xNywxLjE2WiIvPjxwYXRoIGNsYXNzPSJjbHMtOSIgZD0iTTI4OC4yMiw4MS4xNGExLDEsMCwwLDEsMS4wNiwxLjE3Yy0xLjQ4LDEwLTExLDE4LjY3LTI2LjIxLDE4LjY3QzI0NC44MiwxMDEsMjM1LDg5LDIzNSw3Mi40NGMwLTE3LjQxLDEwLjQtMjguODcsMjcuOC0yOC44NywxNy45NCwwLDI3LjgxLDExLjc4LDI4LjIzLDMwLjc4YTEuMTgsMS4xOCwwLDAsMS0xLjE3LDEuMTZIMjUxYy42MywxMC4zLDQuNjYsMTQuODYsMTIuMywxNC44Niw1LjMxLDAsOS4xMy0yLjMzLDEwLjYyLTguMDZhMS4zNiwxLjM2LDAsMCwxLDEuMzgtMS4xN1pNMjYyLjg2LDU0LjA4Yy02LjM3LDAtMTAuMTksMy44Mi0xMS40NiwxMS4zNWgyMi4zOUMyNzMuMTUsNTkuNiwyNjkuODYsNTQuMDgsMjYyLjg2LDU0LjA4WiIvPjwvc3ZnPg=="
+                     alt="Future KNX"
+                     crossorigin="anonymous" />
+            </div>
+            <div>
+                www.futureknx.com
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div id="ProductImageWrapper">
+                <img id="ProductImage"
+                     crossorigin="anonymous"
+                     alt="Designed Product">
+            </div>
+            <div>
+                <table>
+                    <tbody id="ProductSetup"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: 
+Disallow: /_nuxt
+
+Sitemap: https://www.futureknx.com/sitemap.xml

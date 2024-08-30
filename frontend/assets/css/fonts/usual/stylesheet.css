@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-Bold.woff2') format('woff2'),
+        url('Usual-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-ExtraBold.woff2') format('woff2'),
+        url('Usual-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-ExtraBoldItalic.woff2') format('woff2'),
+        url('Usual-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-BoldItalic.woff2') format('woff2'),
+        url('Usual-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-Italic.woff2') format('woff2'),
+        url('Usual-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-Light.woff2') format('woff2'),
+        url('Usual-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-LightItalic.woff2') format('woff2'),
+        url('Usual-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-MediumItalic.woff2') format('woff2'),
+        url('Usual-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-Regular.woff2') format('woff2'),
+        url('Usual-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Usual';
+    src: url('Usual-Medium.woff2') format('woff2'),
+        url('Usual-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

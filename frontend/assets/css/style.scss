@@ -1,0 +1,68 @@
+/* #region Textures */
+.anthracite-gray {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/anthracite-gray.webp);
+}
+
+.antique-bronze {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/antique-bronze.webp);
+    filter: brightness(1.2);
+}
+
+.antique-copper {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/antique-copper.webp);
+    filter: brightness(1.2);
+}
+
+.green-leaf {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/green-leaf.webp);
+    filter: brightness(1.4);
+}
+
+.meteor-black {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/meteor-black.webp);
+    filter: brightness(1.5);
+}
+
+.texture-black {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/texture-black.webp);
+    filter: brightness(1.4);
+}
+
+.polar-white {
+    @apply text-black;
+    background-image: url(~~/assets/switches/textures/polar-white.webp);
+    filter: brightness(1.1);
+}
+
+.pure-gold {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/pure-gold.webp);
+    filter: brightness(1.1);
+}
+
+.red-cherry {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/red-cherry.webp);
+    filter: brightness(1.2);
+}
+
+.royal-silver {
+    @apply text-white;
+    background-image: url(~~/assets/switches/textures/royal-silver.webp);
+    filter: brightness(1.1);
+}
+/* #endregion */
+    
+        .pattern[title]{
+            @apply overflow-hidden text-ellipsis;
+        }
+        .pattern[title]::after {
+            @apply text-xs font-light text-nowrap overflow-hidden text-ellipsis;
+            content: attr(title);
+        }
